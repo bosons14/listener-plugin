@@ -1,0 +1,14 @@
+{
+  "name": "listener",
+  "version": "1.0.0",
+  "description": "An ELIZA-inspired compassionate listener. A comforting presence, not a therapist — with built-in crisis detection that surfaces helplines and guides safety steps.",
+  "author": {
+    "name": "Subhendra Basu",
+    "email": "subhendra.one@gmail.com",
+    "url": "https://github.com/bosons14"
+  },
+  "homepage": "https://github.com/bosons14/listener-plugin",
+  "repository": "https://github.com/bosons14/listener-plugin",
+  "license": "MIT",
+  "keywords": ["listener", "eliza", "mental-health", "wellbeing", "support", "crisis"]
+}

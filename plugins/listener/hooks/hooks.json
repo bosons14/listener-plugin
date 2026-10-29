@@ -1,0 +1,16 @@
+{
+  "description": "Listener crisis check: scans each user message for signs of suicide or self-harm risk and, if found, shows helplines to the user and tells Claude to follow the crisis protocol. Never blocks a message, never stores anything.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/crisis_check.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
