@@ -1,0 +1,30 @@
+{
+  "name": "@bosons14/claude-listener",
+  "version": "1.0.0",
+  "description": "ELIZA-inspired compassionate listener plugin for Claude Code, with built-in crisis detection and helplines. Not a substitute for professional care.",
+  "keywords": ["claude-code", "claude-plugin", "listener", "eliza", "mental-health", "wellbeing"],
+  "author": "Subhendra Basu <subhendra.one@gmail.com> (https://github.com/bosons14)",
+  "license": "MIT",
+  "homepage": "https://github.com/bosons14/listener-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosons14/listener-plugin.git",
+    "directory": "plugins/listener"
+  },
+  "bugs": "https://github.com/bosons14/listener-plugin/issues",
+  "files": [
+    ".claude-plugin/",
+    "skills/",
+    "commands/",
+    "hooks/",
+    "README.md",
+    "SAFETY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
