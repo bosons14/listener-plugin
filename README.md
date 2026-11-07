@@ -1,3 +1,30 @@
+# bosons14-plugins
+
+Claude Code plugins by Subhendra Basu ([@bosons14](https://github.com/bosons14)). Add the
+marketplace once, then install whichever plugins you want:
+
+```
+/plugin marketplace add bosons14/listener-plugin
+/plugin install eda-ops@bosons14-plugins
+```
+
+| Plugin | What it does | Repo |
+|---|---|---|
+| **eda-ops** | RTL lint and review, CDC, Yosys QoR, self-checking testbenches, formal verification, OpenSTA timing closure, SDC/XDC review, EDA log triage. 8 skills, 2 agents, an MCP server. | [eda-ops](https://github.com/bosons14/eda-ops) |
+| **codereview-ops** | Language-agnostic code review: scoped diffs, linter evidence, parallel independent reviewers, verified findings, security audit, SARIF/CI output. 3 skills, 3 agents. | [codereview-ops](https://github.com/bosons14/codereview-ops) |
+| **plainproof** | Ask a number question in plain English; it is tested locally, then proved or refuted by Harmonic's Aristotle and explained without jargon. | [plainproof](https://github.com/bosons14/plainproof) |
+| **bosontube** | Curated free AI, ML and Gen AI courses on YouTube, with learning paths and progress tracking. | [bosontube](https://github.com/bosons14/bosontube) |
+| **listener** | An ELIZA-inspired compassionate listener with built-in crisis detection (below). | this repo |
+
+```
+/plugin install codereview-ops@bosons14-plugins
+/plugin install plainproof@bosons14-plugins
+/plugin install bosontube@bosons14-plugins
+/plugin install listener@bosons14-plugins
+```
+
+---
+
 # Listener
 
 A compassionate listener for Claude Code, inspired by ELIZA, the first chatbot to explore the

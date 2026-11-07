@@ -2,13 +2,53 @@
   "name": "bosons14-plugins",
   "owner": {
     "name": "Subhendra Basu",
-    "email": "subhendra.one@gmail.com"
+    "url": "https://github.com/bosons14"
   },
   "metadata": {
-    "description": "Plugins by Subhendra Basu (bosons14)",
-    "version": "1.0.0"
+    "description": "Claude Code plugins by Subhendra Basu (bosons14): EDA, code review, plain-English maths, AI learning and a compassionate listener.",
+    "version": "1.1.0"
   },
   "plugins": [
+    {
+      "name": "eda-ops",
+      "source": { "source": "github", "repo": "bosons14/eda-ops" },
+      "description": "EDA toolkit: RTL lint/review, CDC, Yosys QoR, self-checking simulation, formal verification, OpenSTA timing, SDC/XDC review, EDA log triage and EDA docs search.",
+      "author": { "name": "Subhendra Basu" },
+      "homepage": "https://github.com/bosons14/eda-ops",
+      "category": "development",
+      "keywords": ["eda", "verilog", "systemverilog", "rtl", "timing", "sta", "sdc", "yosys", "formal-verification", "vlsi"],
+      "license": "MIT"
+    },
+    {
+      "name": "codereview-ops",
+      "source": { "source": "github", "repo": "bosons14/codereview-ops" },
+      "description": "Language-agnostic code review: scoped diffs, linter evidence, parallel independent reviewers, verified findings, security audit, SARIF/CI output.",
+      "author": { "name": "Subhendra Basu" },
+      "homepage": "https://github.com/bosons14/codereview-ops",
+      "category": "development",
+      "keywords": ["code-review", "pull-request", "security", "static-analysis", "sarif", "ci"],
+      "license": "MIT"
+    },
+    {
+      "name": "plainproof",
+      "source": { "source": "github", "repo": "bosons14/plainproof" },
+      "description": "Ask number questions in plain English; Claude tests them locally, then Harmonic's Aristotle proves or refutes them, explained without jargon.",
+      "author": { "name": "Subhendra Basu" },
+      "homepage": "https://github.com/bosons14/plainproof",
+      "category": "education",
+      "keywords": ["math", "proof", "aristotle", "formal-verification", "number-theory"],
+      "license": "MIT"
+    },
+    {
+      "name": "bosontube",
+      "source": { "source": "github", "repo": "bosons14/bosontube" },
+      "description": "Curated free AI, ML and Gen AI courses on YouTube, with learning paths and progress tracking.",
+      "author": { "name": "Subhendra Basu" },
+      "homepage": "https://github.com/bosons14/bosontube",
+      "category": "learning",
+      "keywords": ["ai", "machine-learning", "llm", "courses", "youtube", "learning-paths"],
+      "license": "MIT"
+    },
     {
       "name": "listener",
       "source": "./plugins/listener",
