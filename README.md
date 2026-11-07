@@ -12,12 +12,14 @@ marketplace once, then install whichever plugins you want:
 |---|---|---|
 | **eda-ops** | RTL lint and review, CDC, Yosys QoR, self-checking testbenches, formal verification, OpenSTA timing closure, SDC/XDC review, EDA log triage. 8 skills, 2 agents, an MCP server. | [eda-ops](https://github.com/bosons14/eda-ops) |
 | **codereview-ops** | Language-agnostic code review: scoped diffs, linter evidence, parallel independent reviewers, verified findings, security audit, SARIF/CI output. 3 skills, 3 agents. | [codereview-ops](https://github.com/bosons14/codereview-ops) |
+| **chem-ops** | Cheminformatics for compound screening: drug-likeness profiling, ligand efficiency, PAINS/Brenk/NIH alerts, filter cascades, clustering, scaffolds and series cores. RDKit-backed MCP server, 4 skills, 1 agent. | [chem-ops](https://github.com/bosons14/chem-ops) |
 | **plainproof** | Ask a number question in plain English; it is tested locally, then proved or refuted by Harmonic's Aristotle and explained without jargon. | [plainproof](https://github.com/bosons14/plainproof) |
 | **bosontube** | Curated free AI, ML and Gen AI courses on YouTube, with learning paths and progress tracking. | [bosontube](https://github.com/bosons14/bosontube) |
 | **listener** | An ELIZA-inspired compassionate listener with built-in crisis detection (below). | this repo |
 
 ```
 /plugin install codereview-ops@bosons14-plugins
+/plugin install chem-ops@bosons14-plugins
 /plugin install plainproof@bosons14-plugins
 /plugin install bosontube@bosons14-plugins
 /plugin install listener@bosons14-plugins

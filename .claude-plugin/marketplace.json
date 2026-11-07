@@ -30,6 +30,16 @@
       "license": "MIT"
     },
     {
+      "name": "chem-ops",
+      "source": { "source": "github", "repo": "bosons14/chem-ops" },
+      "description": "Cheminformatics for compound screening: property and drug-likeness profiling, ligand efficiency, PAINS/Brenk/NIH alerts, library filter cascades, clustering, scaffolds, series cores and depiction.",
+      "author": { "name": "Subhendra Basu" },
+      "homepage": "https://github.com/bosons14/chem-ops",
+      "category": "science",
+      "keywords": ["cheminformatics", "rdkit", "drug-discovery", "medicinal-chemistry", "compound-screening", "pains", "pharma"],
+      "license": "MIT"
+    },
+    {
       "name": "plainproof",
       "source": { "source": "github", "repo": "bosons14/plainproof" },
       "description": "Ask number questions in plain English; Claude tests them locally, then Harmonic's Aristotle proves or refutes them, explained without jargon.",
